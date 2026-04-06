@@ -4,10 +4,10 @@
 # 24/11/25
 
 class DLLNode:
-    def __init__(t, x, next="", prev=""):
-        t.val = x
-        t.next = next
-        t.prev = prev
+    def __init__(s, x, next="", prev=""):
+        s.val = x
+        s.next = next
+        s.prev = prev
 
 # set a doubly linked list
 start1a = DLLNode(5)
