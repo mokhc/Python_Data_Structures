@@ -20,6 +20,7 @@ start1a.next.next.next.next = SLLNode(1)
 start2a = start1a
 while start2a is not None:
     if start2a:
+        print(start2a.val)
         start2a = start2a.next
     else:
         break
