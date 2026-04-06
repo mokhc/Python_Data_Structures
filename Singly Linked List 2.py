@@ -16,6 +16,7 @@ start1b = SLLNode(5, SLLNode(4, SLLNode(3, SLLNode(2, SLLNode(1)))))
 start2b = start1b
 while start2b is not None:
     if start2b:
+        print(start2b.val)
         start2b = start2b.next
     else:
         break
