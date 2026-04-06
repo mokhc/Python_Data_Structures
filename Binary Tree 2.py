@@ -6,7 +6,7 @@ from print_btree import print_btree
 
 # class BNode
 class BNode():
-    def __init__(self, v, l="", r=""):
+    def __init__(self, v, l='', r=''):
         self.val = v
         self.left = l
         self.right = r
